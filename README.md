@@ -1,4 +1,6 @@
-# Web Application  
+# Web Application Penetration Testing 
+
+
 **CTF Challenge on Web Authentication Penetration Testing**  
 
 ---
@@ -37,6 +39,30 @@ The main goals are to:
 
 ---
 
+### Skills Learned
+### 1. Understanding HTTP POST Authentication
+- Grasp how login credentials and authentication data are transmitted securely or insecurely using POST requests.
+- Learn the structure of POST requests and how form data is encoded and sent to the server.
+
+### 2. Intercepting and Modifying POST Requests
+- Use tools like Burp Suite, OWASP ZAP, or browser developer tools to capture and modify POST data.
+- Practice tampering with parameters such as username, password, tokens, or hidden fields.
+
+### 3. Identifying Vulnerabilities in Authentication
+- Detect weak session management and insecure cookie handling.
+- Recognize improper input validation leading to injection attacks (e.g., SQL Injection).
+- Spot logic flaws in authentication workflows (e.g., bypassing login, privilege escalation).
+
+### 4. Exploiting Authentication Flaws
+- Perform brute force or credential stuffing attacks on login forms.
+- Exploit SQL injection or command injection vulnerabilities in POST parameters.
+- Bypass authentication using parameter manipulation or replay attacks.
+
+### 5. Understanding Session and Token Management
+- Analyze how sessions and tokens are created, stored, and validated post-authentication.
+- Learn to hijack or forge session tokens if vulnerabilities exist.
+
+
 ## **Tools Used**  
 
 - **Burp Suite:** For intercepting and manipulating HTTP/HTTPS traffic.  
@@ -50,16 +76,22 @@ The main goals are to:
 ## **Typical Steps in the Challenge**  
 
 1. **Reconnaissance:**  
-   Analyze the login page, input fields, and the web application’s source code (e.g., HTML/JS) for clues like hidden fields or hardcoded credentials.  
+   Analyze the login page, input fields, and the web application’s source code (e.g., HTML/JS) for clues like hidden fields or hardcoded credentials.
 
-2. **Testing Input Validation:**  
+   ![photo_2024-07-01_14-34-51](https://github.com/user-attachments/assets/8e768dc1-9ad2-423a-a067-d2dd49fefcc0)
+
+3. **Testing Input Validation:**  
+
    Enter malformed inputs to check how the server processes the data (e.g., testing for SQL injection).  
 
-3. **Bypassing Authentication:**  
+4. **Bypassing Authentication:**  
    Exploit vulnerabilities like SQLi, session fixation, or misconfigured access controls.  
 
-4. **Retrieving the Flag:**  
-   Access restricted areas or sensitive data where the "flag" is hidden, typically stored in text files or within database entries.  
+5. **Retrieving the Flag:**  
+   Access restricted areas or sensitive data where the "flag" is hidden, typically stored in text files or within database entries.
+
+   ![image](https://github.com/user-attachments/assets/3fbd89c0-fd11-4d09-b730-c4c8cf927c19)
+
 
 ---
 
