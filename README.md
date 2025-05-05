@@ -90,7 +90,8 @@ The main goals are to:
 5. **Retrieving the Flag:**  
    Access restricted areas or sensitive data where the "flag" is hidden, typically stored in text files or within database entries.
 
-   ![image](https://github.com/user-attachments/assets/3fbd89c0-fd11-4d09-b730-c4c8cf927c19)
+
+![photo_2024-07-01_14-34-51](https://github.com/user-attachments/assets/a5e19d71-cd4c-46c9-a036-8083877361c4)
 
 
 ---
